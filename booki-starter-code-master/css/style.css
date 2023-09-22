@@ -166,6 +166,7 @@ nav{
 nav .logo{
     margin-top: 20px;
     padding: 20px;
+    width: 100px;
     height: 40%;
 }
 
@@ -468,7 +469,7 @@ nav .logo{
         }
 
         .titleActivite{
-            margin-left: 50px;
+            margin-left: 32px;
             margin-bottom: 40px;
         }
 
@@ -478,7 +479,7 @@ nav .logo{
         align-items: center;
     }
     nav .logo{
-        width: 20%;
+        width: 100px;
         height: 30%;
     }
 
@@ -503,7 +504,7 @@ nav .logo{
     }
 
     .activiteCard{
-        width: 405px;
+        width: 377px;
     }
 
     .categorieContainer {
