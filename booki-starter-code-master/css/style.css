@@ -316,9 +316,9 @@ nav .logo{
     justify-content: center;
     align-items: center;
     height: 50px;
-    width: 25%;
+    width: 400px;
     border: 1px solid #F2F2F2;
-    border-radius: 25px;
+    border-radius: 15px;
 
 }
 
@@ -329,8 +329,8 @@ nav .logo{
     color: rgb(54, 54, 54);
     font-size: 18px;
     width: 15%; height: 100%;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
 .inputRecherche{
@@ -338,7 +338,7 @@ nav .logo{
     font-weight: 600;
     font-size: 18px;
     height: 100%;
-    width: 50%;
+    width: 100%;
     border: none;
     outline: none;
     padding: 0px 10px;
@@ -351,15 +351,28 @@ nav .logo{
 
 .buttonRecherche{
     height: 100%;
-    width: 33%;
-    font-size: 18px;
+    width: 37%;
+    font-size: 16px;
     font-weight: 600;
     cursor: pointer;
     border: none;
     color: white;
     background-color: #0065FC;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.buttonrechercheMobile{
+    display: none;
+    color: white;
+    width: 50px !important;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.buttonrechercheMobile i{
+    color: white;
 }
 
 /*Fin Bouton rechercher*/
@@ -424,7 +437,7 @@ nav .logo{
     } 
 
     .rechercheContainer{
-        width: 450px;
+        width: 375px;
         height: 40px;
     }
 
@@ -457,6 +470,16 @@ nav .logo{
             
         }
 
+        .buttonRecherche{
+            width: 20% !important;
+            font-size: 16px !important;
+            display: none;
+        }
+
+        .buttonrechercheMobile{
+            display: block;
+        }
+
         .hebergements ,.topContainer{
             padding: 10px;
         }
@@ -484,14 +507,15 @@ nav .logo{
     }
 
     .rechercheContainer {
-        width: 305px;
-        height: 40px;
+        width: 397px;
+        height: 60px;
     }
     .inputRecherche{
-        font-size: 14px;
+        font-size: 20px;
     }
 
     .buttonRecherche{
+        width: 30%;
         font-size: 14px;}
 
     .hebergements-and-populaires section{
@@ -505,6 +529,11 @@ nav .logo{
 
     .activiteCard{
         width: 377px;
+    }
+
+    .iconRecherche{
+        font-size: 19px;
+        width: 22%;
     }
 
     .categorieContainer {
