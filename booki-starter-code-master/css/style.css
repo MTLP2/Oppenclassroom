@@ -291,7 +291,7 @@ nav .logo{
     gap: 10px;
     border: 2px solid #D9D9D9;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 19.96px;
     border-radius: 25px;
     cursor: pointer;
@@ -560,6 +560,10 @@ nav .logo{
         border-bottom: 1px solid blue;
     }
 
+    .hebergements{
+        order: 1;
+    }
+
 
     .hebergementcard {
         width: 401px;
@@ -568,6 +572,7 @@ nav .logo{
 
     .populaires{
         position: relative;
+        order: 0;
         width: 100% !important;
         border-radius: 0% !important;
         padding: 5px !important;
@@ -593,6 +598,7 @@ nav .logo{
     }
 
 }
+
 
 .container{
     display: flex;
