@@ -270,6 +270,12 @@ nav .logo{
 .footer li:hover{
     color: #0065FC;
 }
+.titleFooter{
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 20px;
+
+}
 
 /**Fin Footer*/
 
