@@ -421,6 +421,13 @@ nav .logo{
         width: 100%;
     }
 
+    .hebergementTitle{
+        font-size: 16px;
+        padding-top: 5px;
+        line-height: 18px;
+        margin: 10px;
+    }
+
     .populaires {
         width: 100%;
         margin-top: 50px;
@@ -514,7 +521,7 @@ nav .logo{
     }
 
     .rechercheContainer {
-        width: 397px;
+        width: 354px;
         height: 60px;
     }
     .inputRecherche{
@@ -535,7 +542,8 @@ nav .logo{
     }
 
     .activiteCard{
-        width: 377px;
+        width: 319px;
+        height: 220px;
     }
 
     .iconRecherche{
@@ -573,7 +581,7 @@ nav .logo{
 
 
     .hebergementcard {
-        width: 401px;
+        width: 349px;
         height: 258px;
     }
 
