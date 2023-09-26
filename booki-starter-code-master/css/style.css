@@ -195,16 +195,16 @@ nav .logo{
     height: 50%;
     border-top-right-radius: 20px ;
     border-top-left-radius: 20px ;
-    width: 100%;
+    width: 95%;
+    border: 5px solid white;
     object-fit: cover;
 }
 
 .hebergementcontent{
     display: flex;
     flex-direction: column;
-    line-height: 13px;
-    padding: 5px;
-
+    line-height: 8px;
+    padding-left: 15px;
 }
 
 .hebergementTitle{
