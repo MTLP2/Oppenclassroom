@@ -24,7 +24,6 @@ body {
 
 header{
     display: flex;
-    width: 1440px;
     justify-content: center;
 }
 
@@ -158,7 +157,6 @@ nav{
     justify-content: space-between;
     flex: 1;
     height: 70px;
-    padding: 0 30px;
     width: 100%;
     margin-bottom: 20px;
 
@@ -166,7 +164,6 @@ nav{
 
 nav .logo{
     margin-top: 20px;
-    padding: 20px;
     width: 100px;
 }
 
@@ -205,6 +202,7 @@ nav .logo{
     display: flex;
     flex-direction: column;
     line-height: 8px;
+    margin-top: -10px;
     padding-left: 15px;
 }
 
@@ -212,6 +210,11 @@ nav .logo{
     font-size: 16px;
     padding-top: 5px;
     margin: 10px;
+}
+
+.activiteTitle{
+    font-size: 16px;
+    margin-top: 30px;
 }
 
 
@@ -222,6 +225,7 @@ nav .logo{
 
 .activiteContainer{
     display: flex;
+    justify-content: center;
     gap: 20px;
     width: 100%;
     flex-wrap: wrap;
@@ -481,6 +485,10 @@ nav .logo{
         flex-wrap: wrap;
         width: 310px;    }
 
+    nav{
+        padding: 0 0px;
+    }
+
         .filterContainer li {
             font-size: 14px;
             
@@ -522,7 +530,7 @@ nav .logo{
     }
 
     .rechercheContainer {
-        width: 354px;
+        width: 100%;
         height: 60px;
     }
     .inputRecherche{
@@ -543,7 +551,7 @@ nav .logo{
     }
 
     .activiteCard{
-        width: 319px;
+        width: 275px;
         height: 220px;
     }
 
@@ -582,7 +590,6 @@ nav .logo{
 
 
     .hebergementcard {
-        width: 349px;
         height: 258px;
     }
 
