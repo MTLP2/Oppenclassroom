@@ -398,6 +398,10 @@ nav .logo{
     gap: 30px;
 }
 
+.itemCategorie:nth-child(2){
+    color: black;
+}
+
 .itemCategorie{
     padding: 10px;
     border-top: 1px solid white;
