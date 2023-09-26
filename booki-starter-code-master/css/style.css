@@ -167,7 +167,6 @@ nav .logo{
     margin-top: 20px;
     padding: 20px;
     width: 100px;
-    height: 40%;
 }
 
 /**Fin NavBar*/
@@ -509,7 +508,6 @@ nav .logo{
     }
     nav .logo{
         width: 100px;
-        height: 30%;
     }
 
     .rechercheContainer {
