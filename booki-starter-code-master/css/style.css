@@ -393,6 +393,7 @@ nav .logo{
 
 .itemCategorie{
     padding: 10px;
+    border-top: 1px solid white;
     color: #0065FC;
 }
 
