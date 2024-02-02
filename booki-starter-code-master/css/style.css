@@ -415,7 +415,10 @@ nav .logo{
 /*Fin Button Catégories */
 
 
-
+.container{
+    display: flex;
+    gap: 20px;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
@@ -645,7 +648,3 @@ nav .logo{
 }
 
 
-.container{
-    display: flex;
-    gap: 20px;
-}
